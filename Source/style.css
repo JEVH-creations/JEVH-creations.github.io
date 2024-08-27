@@ -1,0 +1,67 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;	
+	color: #ffffff;
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	margin-left:0px;
+	margin-right:0px;
+	width: 100%;
+	height: 100%;
+	padding:0px;
+	background: #231f20 url(background.jpg) no-repeat bottom center;
+	background-attachment:fixed;
+}
+
+/* GALLERY START */
+
+p.GalleryImage1{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
+background-image : url(PolaroidFilms.png);
+background-repeat : no-repeat;
+background-position : center;
+}
+p.GalleryImage2{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
+background-image : url(PolaroidFilms.png);
+background-repeat : no-repeat;
+background-position : center;
+}
+p.GalleryImage3{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
+background-image : url(PolaroidFilms.png);
+background-repeat : no-repeat;
+background-position : center;
+}
+p.GalleryImage4{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
+background-image : url(PolaroidFilms.png);
+background-repeat : no-repeat;
+background-position : center;
+}
+
+p.GalleryEndSpace{width: 100%;height: 459px;margin-top:10px;margin-bottom:10px;}
+/* GALLERY END*/
+
+
+
+
+div.DivContainer  {
+} 
+
+
+div.DivGallery  {
+} 
+
+
+#extraDiv1  {
+	background-image : url(bottom.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	height : 164px;
+	width : 100%;
+	position : fixed;
+	bottom : 0;
+	z-index : 2; 
+} 
+
