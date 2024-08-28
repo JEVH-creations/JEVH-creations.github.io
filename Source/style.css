@@ -22,46 +22,15 @@ body {
 }
 
 /* GALLERY START */
-
+/* START OF UNUSED CODE (OLD) */
 p.GalleryImage1{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
 background-image : url(PolaroidFilms1.png);
 background-repeat : no-repeat;
 background-position : center;
 }
-p.GalleryImage2{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
-background-image : url(PolaroidFilms2.png);
-background-repeat : no-repeat;
-background-position : center;
-}
-p.GalleryImage3{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
-background-image : url(PolaroidFilms3.png);
-background-repeat : no-repeat;
-background-position : center;
-}
-p.GalleryImage4{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
-background-image : url(PolaroidFilms4.png);
-background-repeat : no-repeat;
-background-position : center;
-}
-p.GalleryImage5{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
-background-image : url(PolaroidFilms5.png);
-background-repeat : no-repeat;
-background-position : center;
-}
-p.GalleryImage6{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
-background-image : url(PolaroidFilms6.png);
-background-repeat : no-repeat;
-background-position : center;
-}
-p.GalleryImage7{width: 100%;height: 459px;margin-top:100px;margin-bottom:50px;
-background-image : url(PolaroidFilms7.png);
-background-repeat : no-repeat;
-background-position : center;
-}
-
+/* END OF UNUSED CODE (OLD) */
 p.GalleryEndSpace{width: 100%;height: 459px;margin-top:10px;margin-bottom:10px;}
-/* GALLERY END*/
-
+/* GALLERY END */
 
 
 
@@ -73,6 +42,30 @@ div.DivGallery  {
 } 
 
 
+/* ZOOM FUNCTION START */
+
+.click-zoom input[type=checkbox] {
+	display: none;
+}
+
+.click-zoom img {
+	margin: 100px;
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+	position: relative; /* Position must be relative for z-index to work, no negatives. */
+	z-index : 1;
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+	transform: scale(2);
+	cursor: zoom-out;
+	position: relative; /* Position must be relative for z-index to work, no negatives. */
+	z-index : 3;
+}
+
+/* ZOOM FUNCTION END */
+
+
 #extraDiv1  {
 	background-image : url(bottom.png);
 	background-repeat : no-repeat;
@@ -81,6 +74,6 @@ div.DivGallery  {
 	width : 100%;
 	position : fixed;
 	bottom : 0;
-	z-index : 2; 
+	z-index : 2;
 } 
 
