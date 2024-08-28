@@ -49,17 +49,19 @@ div.DivGallery  {
 }
 
 .click-zoom img {
-	margin: 100px;
-	transition: transform 0.25s ease;
+	width: 378px;
+	height: 459px;
+	margin: 150px;
+	transition: transform 0.2s ease;
 	cursor: zoom-in;
-	position: relative; /* Position must be relative for z-index to work, no negatives. */
+	position: relative; /* Position must be relative for z-index to work, no negative values. */
 	z-index : 1;
 }
 
 .click-zoom input[type=checkbox]:checked~img {
 	transform: scale(2);
 	cursor: zoom-out;
-	position: relative; /* Position must be relative for z-index to work, no negatives. */
+	position: relative; /* Position must be relative for z-index to work, no negative values. */
 	z-index : 3;
 }
 
