@@ -66,6 +66,16 @@ div.DivGallery  {
 
 /* ZOOM FUNCTION END */
 
+#PageHeader  {
+	background-image : url(JEVH.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	height : 111;
+	width : 100%;
+	margin-top: 250px;
+	padding-left: 80px;
+	z-index : 0;
+} 
 
 #extraDiv1  {
 	background-image : url(bottom.png);
@@ -77,4 +87,3 @@ div.DivGallery  {
 	bottom : 0;
 	z-index : 2;
 } 
-
