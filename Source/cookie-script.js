@@ -62,10 +62,10 @@ function hideBanner() {
 
 // Load Google Analytics only if accepted
 function loadGoogleAnalytics() {
-    // Replace G-N5ST4FFCSJ with your actual GA Measurement ID
+    // Replace G-SLL009BFDG with your actual GA Measurement ID
     const script1 = document.createElement('script');
     script1.async = true;
-    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-N5ST4FFCSJ';
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-SLL009BFDG';
     document.head.appendChild(script1);
 
     const script2 = document.createElement('script');
@@ -73,7 +73,7 @@ function loadGoogleAnalytics() {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-N5ST4FFCSJ', {
+        gtag('config', 'G-SLL009BFDG', {
             'anonymize_ip': true,
             'allow_google_signals': false
         });
