@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://jevh-creations.github.io/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Image sitemap entries for your artwork -->
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms1.png</image:loc>
+      <image:caption>JEVH.creations digital art - Character illustration in polaroid style</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms2.png</image:loc>
+      <image:caption>JEVH.creations digital art - Fantasy character design</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms3.png</image:loc>
+      <image:caption>JEVH.creations digital art - Concept art illustration</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms4.png</image:loc>
+      <image:caption>JEVH.creations digital art - Creative character portrait</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms5.png</image:loc>
+      <image:caption>JEVH.creations digital art - Digital painting illustration</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms6.png</image:loc>
+      <image:caption>JEVH.creations digital art - Visual storytelling artwork</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms7.png</image:loc>
+      <image:caption>JEVH.creations digital art - Fantasy illustration design</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms8.png</image:loc>
+      <image:caption>JEVH.creations digital art - Character concept artwork</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms9.png</image:loc>
+      <image:caption>JEVH.creations digital art - Creative digital illustration</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms10.png</image:loc>
+      <image:caption>JEVH.creations digital art - Professional character design</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms11.png</image:loc>
+      <image:caption>JEVH.creations digital art - Artistic illustration work</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms12.png</image:loc>
+      <image:caption>JEVH.creations digital art - Visual art portfolio piece</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms13.png</image:loc>
+      <image:caption>JEVH.creations digital art - Fantasy character artwork</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jevh-creations.github.io/Source/PolaroidFilms14.png</image:loc>
+      <image:caption>JEVH.creations digital art - Creative concept illustration</image:caption>
+    </image:image>
+  </url>
+</urlset>
