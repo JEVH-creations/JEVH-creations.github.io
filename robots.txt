@@ -1,4 +1,4 @@
-# 1. BLOCK AI TRAINING CRAWLERS FROM YOUR ART
+# 1. BLOCK AI TRAINING CRAWLERS
 User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: PerplexityBot
