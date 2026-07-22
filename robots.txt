@@ -3,6 +3,10 @@ User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: PerplexityBot
 User-agent: Google-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: FacebookBot
+User-agent: Meta-ExternalAgent
 Disallow: /Source/
 Disallow: /gallery/Source/
 
