@@ -1,19 +1,27 @@
-# 1. BLOCK AI AGENTS FROM USING YOUR ART FOR TRAINING
+# 1. BLOCK AI TRAINING CRAWLERS FROM YOUR ART
 User-agent: GPTBot
-User-agent: ChatGPT-User
 User-agent: ClaudeBot
-User-agent: Claude-Web
 User-agent: PerplexityBot
 User-agent: Google-Extended
-User-agent: OAI-SearchBot
 Disallow: /Source/
+Disallow: /gallery/Source/
 
-# 2. ALLOW ALL AGENTS TO ACCESS LOGISTICS & INDEX
+# 2. ALLOW AI SEARCH / ANSWER CRAWLERS (no training use)
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Perplexity-User
+Allow: /
+
+# 3. ALLOW ALL OTHER AGENTS (search engines, general crawlers)
 User-agent: *
 Allow: /index.html
 Allow: /llms.txt
 Allow: /
 Disallow: /Source/
+Disallow: /gallery/Source/
 
-# Sitemap location
+# Sitemaps
 Sitemap: https://jevh-creations.github.io/sitemap.xml
+Sitemap: https://jevh-creations.github.io/gallery/sitemap.xml
